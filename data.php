@@ -9,7 +9,11 @@
     'POST',
     'https://jsonplaceholder.typicode.com/posts',
     [
-      'body' => 'foo'
+      'json' => [
+        'title' => 'Guzzle Request',
+        'body' => 'Guzzle makes working with REST APIs easy',
+        'userId' => 2
+      ]
     ]
   );
 
